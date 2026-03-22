@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub Roaster</title>
+
+  <!-- 🔤 FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Press+Start+2P&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🔝 HEADER -->
+<div class="top-header">
+  <div class="bookmark">📌 Created by Charul</div>
+  <div class="logo">💻 ROASTER</div>
+</div>
+
+<!-- 🟡 TICKER -->
+<div class="ticker">
+  <div class="ticker-text">
+    ⭐ Developers getting roasted worldwide ⭐ Improve your GitHub ⭐ Someone just got destroyed 💀 ⭐ Build better projects ⭐
+  </div>
+</div>
+
+<div class="container">
+
+  <h1>Fun, interesting & useful tool — never be boring again</h1>
+  <p>Analyze GitHub profiles, get roasted & improve 🚀</p>
+
+  <!-- SEARCH -->
+  <div class="search-box">
+    <input id="username" placeholder="I'm bored... Enter GitHub username">
+    <button onclick="roastUser()">🔍</button>
+  </div>
+
+  <!-- GRID -->
+  <div class="grid">
+
+    <!-- PROFILE -->
+    <div class="card">
+      <h3>👤 Profile</h3>
+      <img id="avatar">
+      <p id="name"></p>
+      <p id="stats"></p>
+    </div>
+
+    <!-- SCORE -->
+    <div class="card">
+      <h3>📊 Score</h3>
+      <div id="score"></div>
+      <div class="bar"><div id="progress"></div></div>
+    </div>
+
+    <!-- ROAST -->
+    <div class="card">
+      <h3>🔥 Roast</h3>
+      <div id="roast"></div>
+    </div>
+
+    <!-- SUGGESTIONS -->
+    <div class="card">
+      <h3>💡 Improve</h3>
+      <ul id="suggestions"></ul>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
