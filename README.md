@@ -1,6 +1,8 @@
-![GitHub stars](https://img.shields.io/github/stars/charull44/github-roaster?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/charull44/github-roaster?style=for-the-badge)
-![Made with love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/charull44/Github-AI-Roaster?style=for-the-badge&color=yellow)
+
+![GitHub forks](https://img.shields.io/github/forks/charull44/Github-AI-Roaster?style=for-the-badge&color=blue)
+
+![Made with Love](https://img.shields.io/badge/Made%20with-Love-red?style=for-the-badge)
 # 🎮 GitHub Roaster
 
 ### *Fun, Interesting & Useful Tool — Never Be Boring Again 😎*
