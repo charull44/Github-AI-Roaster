@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f5f5;
+}
+
+/* HEADER */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: white;
+  border-bottom: 3px solid black;
+}
+
+.bookmark {
+  background: #ffeb3b;
+  padding: 6px 12px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+.logo {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
+/* TICKER */
+.ticker {
+  background: #ffc107;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ticker-text {
+  display: inline-block;
+  padding: 10px;
+  animation: scroll 12s linear infinite;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+
+@keyframes scroll {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+
+/* CONTAINER */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* TITLE */
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+}
+
+p {
+  font-family: 'Pacifico', cursive;
+  color: #444;
+}
+
+/* SEARCH */
+.search-box {
+  display: flex;
+  margin: 20px 0;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid black;
+}
+
+button {
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  border: 2px solid black;
+  padding: 15px;
+  box-shadow: 4px 4px 0px black;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h3 {
+  font-weight: 600;
+}
+
+/* IMAGE */
+img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+/* PROGRESS */
+.bar {
+  height: 10px;
+  background: #ddd;
+}
+
+#progress {
+  height: 10px;
+  background: #4caf50;
+}
+
+/* ROAST */
+#roast {
+  color: red;
+  font-weight: bold;
+}
