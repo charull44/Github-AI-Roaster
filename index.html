@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🔥 GitHub AI Roaster</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🔥 GitHub AI Roaster</h1>
+  <p>Enter username & get roasted by AI 😂</p>
+
+  <input id="username" placeholder="Enter GitHub username">
+  
+  <div class="buttons">
+    <button onclick="roastUser()">Roast 🔥</button>
+    <button onclick="download()">📸 Save</button>
+  </div>
+
+  <div id="card" class="card hidden">
+    <img id="avatar">
+    <h2 id="name"></h2>
+    <p id="stats"></p>
+    <div id="roast" class="roast"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
