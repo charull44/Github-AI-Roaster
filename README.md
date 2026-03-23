@@ -35,10 +35,10 @@
 ## 📸 Preview
 
 ### 🟢 Before
-![Before](./screenshots/preview_before.png)
+![Before](./preview_before.png)
 
 ### 🔵 After
-![After](./screenshots/preview_after.png)
+![After](./preview_after.png)
 
 ---
 
