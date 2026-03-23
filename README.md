@@ -34,9 +34,11 @@
 
 ## 📸 Preview
 
-<p align="center">
-  <img src="preview.png" width="700"/>
-</p>
+### 🟢 Before
+![Before](./screenshots/preview_before.png)
+
+### 🔵 After
+![After](./screenshots/preview_after.png)
 
 ---
 
